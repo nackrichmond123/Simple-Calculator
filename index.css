@@ -102,5 +102,17 @@ button{
     }
 }
 
+@media (max-width: 420px) {
+    .container{
+        width: 66%;
+        height: 64vh;
+    }
+}
 
+@media (max-height: 440px) {
+    .container{
+        width: 66%;
+        height: 79vh;
+    }
+}
 
