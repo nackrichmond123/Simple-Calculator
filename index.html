@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <!-- The div containing the calculator buttons and display -->
+     <div class="container">
+
+        <!-- Space that will contain all the input values entered -->
+        <input type="text" name="" id="display" placeholder="0" readonly>
+    
+        <!-- All the input Buttons -->
+        <div class="btn">
+
+            <!-- Button to Clear all  your Calculation  -->
+            <button onclick="clearInput()" class="gray">C</button>
+
+            <button onclick="clickToDisplay('%')" class="gray">%</button>
+
+            <!-- Clear one Number at a time -->
+            <button onclick="clearOneNumber()" class="gray">=></button>
+
+            <button onclick="clickToDisplay('/')" class="orange">/</button>
+            <button onclick="clickToDisplay('7')" class="black">7</button>
+            <button onclick="clickToDisplay('8')" class="black">8</button>
+            <button onclick="clickToDisplay('9')" class="black">9</button>
+            <button onclick="clickToDisplay('*')" class="orange">X</button>
+            <button onclick="clickToDisplay('4')" class="black">4</button>
+            <button onclick="clickToDisplay('5')" class="black">5</button>
+            <button onclick="clickToDisplay('6')" class="black">6</button>
+            <button onclick="clickToDisplay('+')" class="orange">+</button>
+            <button onclick="clickToDisplay('1')" class="black">1</button>
+            <button onclick="clickToDisplay('2')" class="black">2</button>
+            <button onclick="clickToDisplay('3')" class="black">3</button>
+            <button onclick="clickToDisplay('-')" class="orange" id="Subtract">-</button>
+
+            <!-- This Button squares the number in the input space -->
+            <button onclick="Square()" class="gray">x <sup>2</sup></button>
+
+            <button onclick="clickToDisplay('0')" class="black">0</button>
+            <button onclick="clickToDisplay('.')" class="gray">.</button>
+
+            <!-- Equal sign for all the Calculation -->
+            <button onclick="clickToCalculate()" class="orange" id="equalSign">=</button>
+  
+        </div>
+     </div>
+
+     <script src="index.js"></script>
+</body>
+</html>
