@@ -67,7 +67,7 @@ button{
 }
 
 /* Responsiveness */
- @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+ /* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
     .container{
         width: 28%;
         height: 62vh;
@@ -86,7 +86,7 @@ button{
         width: 52%;
         height: 64vh;
     }
-} 
+}  */
 
 /* @media (min-width:320px) and  (max-width:480px){
     .container{
