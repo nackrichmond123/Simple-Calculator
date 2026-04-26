@@ -6,8 +6,8 @@ body{
 .container{
     margin: auto;
     box-shadow: 0px 0px 5px black;
-    width: 23%;
-    height: 61vh;
+    width: 24%;
+    height: 63vh;
     border-radius: 10px;
 }
 
@@ -24,7 +24,7 @@ button{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 3px; 
-    padding: 6px;
+    padding: 8px;
 }
 
 #display{
@@ -67,30 +67,40 @@ button{
 }
 
 /* Responsiveness */
- /* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+@media (max-width: 1280px) {
     .container{
-        width: 28%;
-        height: 62vh;
-    }
-} 
-
- @media (max-width: 768px) and (orientation: portrait){
-    .container{
-        width: 28%;
-        height: 62vh;
-    }
-} 
-
- @media (min-width: 320px) {
-    .container{
-        width: 52%;
+        width: 23%;
         height: 64vh;
     }
-}  */
+}
 
-/* @media (min-width:320px) and  (max-width:480px){
+@media (max-width: 1024px) {
     .container{
-        width: 65%;
-        height: 60vh;
+        width: 30%;
+        height: 65vh;
     }
-}  */
+} 
+
+@media (max-width: 1011px) {
+    .container{
+        width: 28%;
+        height: 65vh;
+    }
+} 
+
+@media (max-width: 768px) {
+    .container{
+        width: 40%;
+        height: 65vh;
+    }
+} 
+
+@media (max-width: 320px) {
+    .container{
+        width: 82%;
+        height: 64vh;
+    }
+}
+
+
+
