@@ -27,7 +27,8 @@ button{
 }
 
 #display{
-    width: 92%;
+    margin-top: 1%;
+    width: 90%;
     height: 9vh;
     border: none;
     color: black;
@@ -134,7 +135,8 @@ button{
     }
 
     #display{
-        width: 86%;
+        margin-top: 1%;
+        width: 90%;
         height: 9vh;
         border: none;
         color: black;
