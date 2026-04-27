@@ -8,6 +8,14 @@ function clearInput(){
     Display.value = "";
 }
 
+// function clearOneNumber(){
+//     Display.value -= Display.value;
+// }
+
+function Square(){ 
+    Display.value = eval(Math.pow(Display.value,2));
+}
+
 function clickToCalculate(){
     try{
          Display.value = eval(Display.value);

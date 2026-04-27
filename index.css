@@ -1,5 +1,4 @@
 body{
-    margin: 3%;
     text-align: center;
 }
 
@@ -29,7 +28,7 @@ button{
 
 #display{
     width: 92%;
-    height: 10vh;
+    height: 9vh;
     border: none;
     color: black;
     font-size: 35px;
@@ -104,8 +103,34 @@ button{
 
 @media (max-width: 420px) {
     .container{
-        width: 66%;
-        height: 64vh;
+        width: 94%;
+        height:86vh;
+    }
+
+    
+    button{
+        width: 80px;
+        height: 80px;
+
+    }
+
+    #Subtract{
+        margin-top: 2%;
+        width: 80px;
+        height: 65px;
+    }
+
+    #equalSign{
+        margin-top: -15%;
+        width: 80px;
+        height: 92px;
+    }
+
+    .btn{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 5px; 
+        padding: 8px;
     }
 }
 
