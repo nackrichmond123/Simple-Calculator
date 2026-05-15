@@ -4,6 +4,10 @@ function clickToDisplay(input){
     Display.value += input;
 }
 
+function clickToDisplayOperator(input){
+    Display.value += input;
+}
+
 function clearInput(){
     Display.value = "";
 }
